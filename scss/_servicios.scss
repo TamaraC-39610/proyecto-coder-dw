@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.main-servicios {
+    width: 100%;
+    margin: auto;
+
+
+    .contenedor-titulo {
+        width: 100%;
+        padding: 15px;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .parrafo-titulo {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            p {
+                font-size: 15px;
+                font-family: sans-serif;
+                display: flex;
+                flex-direction: column;
+
+                span {
+                    font-size: 15px;
+                    font-family: sans-serif;
+                }
+            }
+        }
+    }
+
+    .contenedor-servicios {
+        background-color: #000;
+        color: #fff;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+
+        h2 {}
+
+        .contenedor-servicios-li-1 {
+            background-color: rgb(181, 176, 176);
+            margin: 50px auto;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .servicios {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    list-style: none;
+                }
+            }
+
+            .img-servicios {
+                width: 50%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+
+        .contenedor-servicios-li-2 {
+            background-color: rgb(181, 176, 176);
+            margin: 50px auto;
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+
+            .servicios {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+
+                li {
+                    list-style: none;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+            }
+
+            .img-servicios {
+                width: 50%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .trabaja-connosotros{
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .parrafo-trabaja{
+            p{
+
+            }
+        }
+        .h3-trabaja{
+            h3{
+                text-align: center;
+            }
+        }
+    }
+}

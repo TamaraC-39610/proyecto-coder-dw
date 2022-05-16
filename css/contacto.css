@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-contacto{
+
+    width: 100%;
+    margin: auto;
+}
+
+.direccion {
+    color: yellow;
+    background-image: url(../imagenes/araña.jpg);
+    background-color: grey;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-weight: bold;
+    width: 1300px;
+
+}
+
+.h3-direccion{
+    text-align: center;
+}
+
+.mapa{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.redes-sociales {
+    background-color: rgb(156, 175, 175);
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+
+.contenedor-redes-enlace{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.redes-sociales-enlaces{
+    width: 33.3%;
+    background-color: rgb(174, 166, 166);
+    margin: 1px;
+    text-align: center;
+}
+
+
+.parrafos-redes{
+    width: 100%;
+    margin: 25px auto;
+}
+.redes-sociales-parrafo{
+    text-align: center;
+    width: 100%;
+}
+
+
+.formulario-contacto{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario-contacto h2{
+    text-align: center;
+}
+
+.formulario-contacto form{
+    background-color: #7ceec8;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 15px;
+}
+
+.formulario-contacto form label{
+    margin: 10px;
+}
+.formulario-contacto form input{
+    margin: 5px auto;
+    width: 100%;
+    border-radius: 5px;
+    border: hidden;
+    padding: 5px;
+
+}
+.formulario-contacto form textarea{
+    margin-top: 10px;
+    height: 100px;
+    padding: 5px;
+}
+
+.formulario-contacto form button{
+    width: 150px;
+    border-radius: 5px;
+    background-color: #2323ea;
+    color: #ffff;
+    margin:20px auto;
+    cursor: pointer;
+}
+
+.formulario-contacto form button:hover{
+    background-color: #4949ea;
+    transition: all 0.5s ease-out;
+}
+
+
+

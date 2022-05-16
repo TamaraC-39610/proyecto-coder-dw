@@ -1,0 +1,213 @@
+@import 'servicios';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(181, 176, 176);
+
+}
+.main-index {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(181, 176, 176);
+
+    .titulos-index {
+
+        h1 {
+            color: #fff;
+            text-shadow: 2px 1px 2px #000;
+            font-weight: bold;
+            font-size: 150px;
+            text-align: center;
+            background-image: url(../imagenes/titulo\ principal.jpg);
+            background-size: cover;
+            background-position: center;
+
+
+        }
+
+        #frase-2 {
+            color: #000;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 20px;
+        }
+    }
+
+
+    #frase-1 {
+        color: white;
+        text-shadow: 2px 1px 2px #000;
+
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;
+        background-color: turquoise;
+        background-image: url(../imagenes/ruedas.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+
+    }
+
+    .contenedor-bienvenida {
+        text-align: justify;
+
+        .h2-bienvenida {
+            text-align: center;
+            h2 {
+
+                span {
+                    color: #fff;
+                }
+            }
+        }
+
+        .contenedor-p-img {
+            width: 100%;
+            margin: auto;
+            background-color: #000;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 10px;
+
+            .parrafo-bienvenida {
+                width: 50%;
+                margin: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    color: #fff;
+                    width: 100%;
+                    font-size: 20px;
+                }
+            }
+
+            .img-bienvenida {
+                width: 50%;
+                margin: 5px;
+
+                img {
+                    width: 100%;
+
+                }
+            }
+        }
+
+
+    }
+
+
+    .tipos-servicios {
+        color: #0e0e0e;
+        background-color: rgb(181, 176, 176);
+
+        font-weight: bold;
+        text-align: center;
+        padding: 15px;
+
+        .tipos-servicios {
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            span {
+                background-color: grey;
+                padding: 5px;
+            }
+        }
+    }
+
+
+    .contenedor-direccion {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background-image: url(../imagenes/araña.jpg);
+        background-size: cover;
+        background-position: center;
+
+        .direccion {
+            background-color: rgba(0, 0, 0, 0.442);
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .h3-direccion {
+                text-shadow: 2px 1px 2px #000;
+                color: #fff;
+                text-align: center;
+                font-weight: bold;
+                text-align: center;
+                h3{
+                    font-size: 15px;
+
+                }
+            }
+        }
+
+
+        .mapa {
+            background-color: rgba(0, 0, 0, 0.442);
+
+            width: 50%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+
+            iframe{
+                width: 100%;
+            }
+        }
+    }
+
+    .contenedor-redes {
+
+        .redes-sociales {
+            background-color: rgba(0, 0, 0, 0.75);
+            color: whitesmoke;
+            text-align: center;
+
+        }
+
+
+        .contenedor-redes-enlace {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            margin-top: 20px;
+
+            .redes-sociales-enlaces {
+                width: 33.3%;
+                background-color: rgba(8, 7, 7, 0.774);
+                margin: 1px;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+}
+
+/* @media screen and (max-width:768px) {
+    .main-index {
+
+        
+    }
+
+} */

@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.obras {
+    color: darkmagenta;
+}
+
+.obras--tituloprincipal {
+    background-color: rgb(210, 108, 50);
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    border-radius: 10px;
+}
+
+.obras--imagenprincipal {
+    border: 10px solid black;
+    margin: 0 auto;
+}
+
+.obras--texto {
+    color: rgb(56, 203, 51);
+}
+.lema {
+    background-color: plum;
+    border-radius: 10px;
+    border: 10px solid black;
+}
+
+.lema__imagen {
+    height: 300px;
+    width: 80%;
+    background-size: cover;
+    border-radius: 10px;
+    transform: translateX(100px);
+
+}
+
+.lema__frase {
+    font-weight: bold;
+    text-align: center;
+}

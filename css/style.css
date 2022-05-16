@@ -1,0 +1,265 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-servicios {
+  width: 100%;
+  margin: auto;
+}
+.main-servicios .contenedor-titulo {
+  width: 100%;
+  padding: 15px;
+}
+.main-servicios .contenedor-titulo h2 {
+  font-size: 30px;
+}
+.main-servicios .contenedor-titulo .parrafo-titulo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main-servicios .contenedor-titulo .parrafo-titulo p {
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.main-servicios .contenedor-titulo .parrafo-titulo p span {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.main-servicios .contenedor-servicios {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-1 {
+  background-color: rgb(181, 176, 176);
+  margin: 50px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-1 .servicios {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-1 .servicios li {
+  list-style: none;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-1 .img-servicios {
+  width: 50%;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-1 .img-servicios img {
+  width: 100%;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-2 {
+  background-color: rgb(181, 176, 176);
+  margin: 50px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-2 .servicios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-2 .servicios li {
+  list-style: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-2 .img-servicios {
+  width: 50%;
+}
+.main-servicios .contenedor-servicios .contenedor-servicios-li-2 .img-servicios img {
+  width: 100%;
+}
+.main-servicios .trabaja-connosotros {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-servicios .trabaja-connosotros .h3-trabaja h3 {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(181, 176, 176);
+}
+
+.main-index {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(181, 176, 176);
+}
+.main-index .titulos-index h1 {
+  color: #fff;
+  text-shadow: 2px 1px 2px #000;
+  font-weight: bold;
+  font-size: 150px;
+  text-align: center;
+  background-image: url(../imagenes/titulo\ principal.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-index .titulos-index #frase-2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+}
+.main-index #frase-1 {
+  color: white;
+  text-shadow: 2px 1px 2px #000;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  background-color: turquoise;
+  background-image: url(../imagenes/ruedas.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main-index .contenedor-bienvenida {
+  text-align: justify;
+}
+.main-index .contenedor-bienvenida .h2-bienvenida {
+  text-align: center;
+}
+.main-index .contenedor-bienvenida .h2-bienvenida h2 span {
+  color: #fff;
+}
+.main-index .contenedor-bienvenida .contenedor-p-img {
+  width: 100%;
+  margin: auto;
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.main-index .contenedor-bienvenida .contenedor-p-img .parrafo-bienvenida {
+  width: 50%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-index .contenedor-bienvenida .contenedor-p-img .parrafo-bienvenida p {
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+}
+.main-index .contenedor-bienvenida .contenedor-p-img .img-bienvenida {
+  width: 50%;
+  margin: 5px;
+}
+.main-index .contenedor-bienvenida .contenedor-p-img .img-bienvenida img {
+  width: 100%;
+}
+.main-index .tipos-servicios {
+  color: #0e0e0e;
+  background-color: rgb(181, 176, 176);
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+.main-index .tipos-servicios .tipos-servicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.main-index .tipos-servicios .tipos-servicios span {
+  background-color: grey;
+  padding: 5px;
+}
+.main-index .contenedor-direccion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url(../imagenes/araña.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-index .contenedor-direccion .direccion {
+  background-color: rgba(0, 0, 0, 0.442);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-index .contenedor-direccion .direccion .h3-direccion {
+  text-shadow: 2px 1px 2px #000;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+}
+.main-index .contenedor-direccion .direccion .h3-direccion h3 {
+  font-size: 15px;
+}
+.main-index .contenedor-direccion .mapa {
+  background-color: rgba(0, 0, 0, 0.442);
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.main-index .contenedor-direccion .mapa iframe {
+  width: 100%;
+}
+.main-index .contenedor-redes .redes-sociales {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: whitesmoke;
+  text-align: center;
+}
+.main-index .contenedor-redes .contenedor-redes-enlace {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main-index .contenedor-redes .contenedor-redes-enlace .redes-sociales-enlaces {
+  width: 33.3%;
+  background-color: rgba(8, 7, 7, 0.774);
+  margin: 1px;
+  text-align: center;
+}
+
+/* @media screen and (max-width:768px) {
+    .main-index {
+
+
+    }
+
+} */
+
+/*# sourceMappingURL=style.css.map */
