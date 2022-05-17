@@ -1,13 +1,13 @@
+@import 'variables';
+@import 'mixins';
+
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+   @include formatDocument
 }
 
 
 .main-servicios {
-    width: 100%;
-    margin: auto;
+   @include main-all;
 
 
     .contenedor-titulo {
@@ -48,12 +48,9 @@
         h2 {}
 
         .contenedor-servicios-li-1 {
-            background-color: rgb(181, 176, 176);
-            margin: 50px auto;
-            width: 100%;
-            display: flex;
+            @include contenedor-servicios-li;
+
             flex-direction: row;
-            justify-content: center;
 
             .servicios {
                 width: 50%;
@@ -78,12 +75,8 @@
         }
 
         .contenedor-servicios-li-2 {
-            background-color: rgb(181, 176, 176);
-            margin: 50px auto;
-            width: 100%;
-            display: flex;
+          @include contenedor-servicios-li;
             flex-direction: row-reverse;
-            justify-content: center;
 
             .servicios {
                 display: flex;
@@ -109,15 +102,25 @@
         }
     }
 
-    .trabaja-connosotros{
+    .trabaja-con-nosotros{
         width: 100%;
         padding: 15px;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
+        h3{
+            text-align: center;
+        }
         .parrafo-trabaja{
+            border-radius: 25px 5px 50px 5px;
+            padding: 20px;
+            background: #000000;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
             p{
+                color: #fff;
 
             }
         }

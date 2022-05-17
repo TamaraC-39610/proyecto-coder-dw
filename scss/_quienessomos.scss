@@ -1,0 +1,136 @@
+@import 'variables';
+@import 'mixins';
+
+* {
+    @include formatDocument
+}
+
+.main-quienessomos {
+    @include main-all;
+
+    h2 {
+        text-align: center;
+    }
+
+    .contenedor-nuestra-empresa {
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+        background-color: $primary-color-2;
+        color: $primary-color-1;
+
+        h2 {
+            text-align: left;
+            text-decoration: underline;
+        }
+
+        p {
+            font-family: sans-serif;
+
+        }
+    }
+
+    .contenedor-mantenimiento {
+        padding: 15px;
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        grid-template-rows: 1 minmax(100%);
+        margin-top: 50px;
+
+        .lista-mantenimiento {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background-color: $primary-color-2;
+            color: $primary-color-1;
+
+            ul {
+                li {
+
+                    list-style: none;
+                    text-transform: uppercase;
+                }
+
+            }
+        }
+
+        .imag-mantenimiento {
+            display: flex;
+            width: 100%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .capitalhumano {
+        margin-top: 50px;
+        width: 100%;
+        background-color: $primary-color-2;
+        color: $primary-color-1;
+
+        h3 {
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        .contenedor-capitalhumano {
+            padding: 15px;
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            grid-template-rows: 1 minmax(100%);
+            margin-top: 50px;
+
+            .img-p-humano {
+                display: flex;
+                width: 100%;
+                margin: 5px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .capitalhumano-parrafo {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                margin: 5px;
+                padding: 10px;
+                background-color: $primary-color-3;
+
+                p {
+                    margin: 5px;
+                }
+            }
+        }
+    }
+
+    .medioambiente {
+        padding: 15px;
+
+        h3 {
+            text-decoration: underline;
+        }
+
+        p {
+            padding: 15px;
+            background: #000000;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #434343, #000000);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #434343, #000000);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            border-radius: 25px 5px 50px 5px;
+            color: $primary-color-1;
+
+        }
+    }
+
+}

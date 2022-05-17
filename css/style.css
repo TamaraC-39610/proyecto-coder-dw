@@ -1,13 +1,15 @@
 @charset "UTF-8";
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .main-servicios {
   width: 100%;
   margin: auto;
+  max-width: 1900px;
+  background-color: #b5b0b0;
 }
 .main-servicios .contenedor-titulo {
   width: 100%;
@@ -44,8 +46,8 @@
   margin: 50px auto;
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  flex-direction: row;
 }
 .main-servicios .contenedor-servicios .contenedor-servicios-li-1 .servicios {
   width: 50%;
@@ -68,8 +70,8 @@
   margin: 50px auto;
   width: 100%;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: center;
+  flex-direction: row-reverse;
 }
 .main-servicios .contenedor-servicios .contenedor-servicios-li-2 .servicios {
   display: flex;
@@ -89,14 +91,30 @@
 .main-servicios .contenedor-servicios .contenedor-servicios-li-2 .img-servicios img {
   width: 100%;
 }
-.main-servicios .trabaja-connosotros {
+.main-servicios .trabaja-con-nosotros {
   width: 100%;
   padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.main-servicios .trabaja-connosotros .h3-trabaja h3 {
+.main-servicios .trabaja-con-nosotros h3 {
+  text-align: center;
+}
+.main-servicios .trabaja-con-nosotros .parrafo-trabaja {
+  border-radius: 25px 5px 50px 5px;
+  padding: 20px;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.main-servicios .trabaja-con-nosotros .parrafo-trabaja p {
+  color: #fff;
+}
+.main-servicios .trabaja-con-nosotros .h3-trabaja h3 {
   text-align: center;
 }
 
@@ -106,14 +124,273 @@
   box-sizing: border-box;
 }
 
+.main-contacto {
+  width: 100%;
+  margin: auto;
+  max-width: 1900px;
+  background-color: #b5b0b0;
+}
+.main-contacto h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+.main-contacto .contenedor-direccion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-image: url(../imagenes/araña.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main-contacto .contenedor-direccion .direccion {
+  background-color: rgba(0, 0, 0, 0.442);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-contacto .contenedor-direccion .direccion .h3-direccion {
+  text-shadow: 2px 1px 2px #000;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+}
+.main-contacto .contenedor-direccion .direccion .h3-direccion h3 {
+  font-size: 15px;
+}
+.main-contacto .contenedor-direccion .mapa {
+  background-color: rgba(0, 0, 0, 0.442);
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.main-contacto .contenedor-direccion .mapa iframe {
+  width: 100%;
+}
+.main-contacto .contenedor-redes .redes-sociales {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: whitesmoke;
+  text-align: center;
+}
+.main-contacto .contenedor-redes .contenedor-redes-enlace {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main-contacto .contenedor-redes .contenedor-redes-enlace .redes-sociales-enlaces {
+  width: 33.3%;
+  background-color: rgba(8, 7, 7, 0.774);
+  margin: 1px;
+  text-align: center;
+}
+.main-contacto .formulario-contacto {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main-contacto .formulario-contacto h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+.main-contacto .formulario-contacto form {
+  background-color: #020202;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30%;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+.main-contacto .formulario-contacto form label {
+  margin: 10px;
+}
+.main-contacto .formulario-contacto form input {
+  margin: 5px auto;
+  width: 100%;
+  border-radius: 5px;
+  border: hidden;
+  padding: 5px;
+}
+.main-contacto .formulario-contacto form textarea {
+  margin-top: 10px;
+  height: 100px;
+  padding: 5px;
+}
+.main-contacto .formulario-contacto form button {
+  width: 150px;
+  border-radius: 5px;
+  background-color: #2323ea;
+  color: white;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.main-contacto .formulario-contacto form button:hover {
+  background-color: #4949ea;
+  transition: all 0.5s ease-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-quienessomos {
+  width: 100%;
+  margin: auto;
+  max-width: 1900px;
+  background-color: #b5b0b0;
+}
+.main-quienessomos h2 {
+  text-align: center;
+}
+.main-quienessomos .contenedor-nuestra-empresa {
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+}
+.main-quienessomos .contenedor-nuestra-empresa h2 {
+  text-align: left;
+  text-decoration: underline;
+}
+.main-quienessomos .contenedor-nuestra-empresa p {
+  font-family: sans-serif;
+}
+.main-quienessomos .contenedor-mantenimiento {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: 1 minmax(100%);
+  margin-top: 50px;
+}
+.main-quienessomos .contenedor-mantenimiento .lista-mantenimiento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+.main-quienessomos .contenedor-mantenimiento .lista-mantenimiento ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+.main-quienessomos .contenedor-mantenimiento .imag-mantenimiento {
+  display: flex;
+  width: 100%;
+}
+.main-quienessomos .contenedor-mantenimiento .imag-mantenimiento img {
+  width: 100%;
+}
+.main-quienessomos .capitalhumano {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+.main-quienessomos .capitalhumano h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.main-quienessomos .capitalhumano .contenedor-capitalhumano {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: 1 minmax(100%);
+  margin-top: 50px;
+}
+.main-quienessomos .capitalhumano .contenedor-capitalhumano .img-p-humano {
+  display: flex;
+  width: 100%;
+  margin: 5px;
+}
+.main-quienessomos .capitalhumano .contenedor-capitalhumano .img-p-humano img {
+  width: 100%;
+}
+.main-quienessomos .capitalhumano .contenedor-capitalhumano .capitalhumano-parrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  background-color: #b5b0b0;
+}
+.main-quienessomos .capitalhumano .contenedor-capitalhumano .capitalhumano-parrafo p {
+  margin: 5px;
+}
+.main-quienessomos .medioambiente {
+  padding: 15px;
+}
+.main-quienessomos .medioambiente h3 {
+  text-decoration: underline;
+}
+.main-quienessomos .medioambiente p {
+  padding: 15px;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 25px 5px 50px 5px;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px;
+}
+footer img {
+  margin: 15px auto;
+}
+footer h4 {
+  margin: 5px auto;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(181, 176, 176);
+  background-color: #b5b0b0;
 }
 
 .main-index {
   width: 100%;
   margin: auto;
-  background-color: rgb(181, 176, 176);
+  max-width: 1900px;
+  background-color: #b5b0b0;
 }
 .main-index .titulos-index h1 {
   color: #fff;

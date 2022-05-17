@@ -1,0 +1,155 @@
+@import 'variables';
+@import 'mixins';
+
+
+*{
+    @include formatDocument
+}
+.main-contacto {
+   @include main-all;
+
+    h2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contenedor-direccion {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        background-image: url(../imagenes/araña.jpg);
+        background-size: cover;
+        background-position: center;
+
+        .direccion {
+            background-color: rgba(0, 0, 0, 0.442);
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .h3-direccion {
+                text-shadow: 2px 1px 2px #000;
+                color: #fff;
+                text-align: center;
+                font-weight: bold;
+                text-align: center;
+
+                h3 {
+                    font-size: 15px;
+
+                }
+            }
+        }
+
+
+        .mapa {
+            background-color: rgba(0, 0, 0, 0.442);
+
+            width: 50%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+
+            iframe {
+                width: 100%;
+            }
+        }
+    }
+
+    .contenedor-redes {
+
+        .redes-sociales {
+            background-color: rgba(0, 0, 0, 0.75);
+            color: whitesmoke;
+            text-align: center;
+
+        }
+
+
+        .contenedor-redes-enlace {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+            margin-top: 20px;
+
+            .redes-sociales-enlaces {
+                width: 33.3%;
+                background-color: rgba(8, 7, 7, 0.774);
+                margin: 1px;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+
+    .formulario-contacto {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        form {
+            background-color: #020202;
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 30%;
+            padding: 15px;
+            border-radius: 10px;
+            color: #fff;
+
+            label {
+                margin: 10px;
+            }
+
+            input {
+                margin: 5px auto;
+                width: 100%;
+                border-radius: 5px;
+                border: hidden;
+                padding: 5px;
+
+            }
+
+            textarea {
+                margin-top: 10px;
+                height: 100px;
+                padding: 5px;
+            }
+
+            button {
+                width: 150px;
+                border-radius: 5px;
+                background-color: #2323ea;
+                color: #ffff;
+                margin: 20px auto;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #4949ea;
+                transition: all 0.5s ease-out;
+            }
+        }
+
+    }
+
+
+
+
+}

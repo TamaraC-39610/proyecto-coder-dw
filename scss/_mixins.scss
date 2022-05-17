@@ -1,0 +1,25 @@
+@import 'variables';
+
+
+@mixin formatDocument {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@mixin main-all {
+    width: 100%;
+    margin: auto;
+    max-width: 1900px;
+    background-color: $primary-color-3;
+
+}
+
+@mixin contenedor-servicios-li {
+    background-color: rgb(181, 176, 176);
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
