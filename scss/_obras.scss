@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'mixins';
+
+* {
+   @include formatDocument
+}
+
+.main-obras{
+    @include main-all;
+
+    h2{
+        text-align: center;
+    }
+
+    .contenedor-nuestras-obras{
+        width: 100%;
+        margin: auto;
+        padding: 15px;
+        background-color: $primary-color-2;
+        color: $primary-color-1;
+
+        
+    }
+}

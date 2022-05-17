@@ -247,6 +247,29 @@
   box-sizing: border-box;
 }
 
+.main-obras {
+  width: 100%;
+  margin: auto;
+  max-width: 1900px;
+  background-color: #b5b0b0;
+}
+.main-obras h2 {
+  text-align: center;
+}
+.main-obras .contenedor-nuestras-obras {
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  background-color: #000;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .main-quienessomos {
   width: 100%;
   margin: auto;
