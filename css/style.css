@@ -263,6 +263,64 @@
   background-color: #000;
   color: #fff;
 }
+.main-obras .contenedor-nuestras-obras h2 {
+  text-align: left;
+  text-decoration: underline;
+}
+.main-obras .contenedor-nuestras-obras img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 20px;
+}
+.main-obras .contenedor-obras-lista {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: 1 minmax(100%);
+  margin-top: 50px;
+}
+.main-obras .contenedor-obras-lista .obras-lista {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+}
+.main-obras .contenedor-obras-lista .obras-lista ul li {
+  list-style: circle;
+  text-transform: uppercase;
+}
+.main-obras .contenedor-obras-lista .img-obras {
+  display: flex;
+  width: 100%;
+}
+.main-obras .contenedor-obras-lista .img-obras img {
+  width: 100%;
+}
+.main-obras .lema-frase {
+  padding: 15px;
+}
+.main-obras .lema-frase h3 {
+  text-decoration: underline;
+  padding: 15px;
+}
+.main-obras .lema-frase p {
+  padding: 15px;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 25px 5px 50px 5px;
+  color: #fff;
+}
 
 * {
   margin: 0;

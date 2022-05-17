@@ -120,15 +120,7 @@
         }
 
         p {
-            padding: 15px;
-            background: #000000;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #434343, #000000);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #434343, #000000);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            border-radius: 25px 5px 50px 5px;
-            color: $primary-color-1;
+            @include p
 
         }
     }
