@@ -23,7 +23,7 @@
         background-position: center;
 
         .direccion {
-            background-color: rgba(0, 0, 0, 0.442);
+            background-color: $primary-color-2;
             width: 50%;
             display: flex;
             flex-direction: column;
@@ -31,8 +31,8 @@
             align-items: center;
 
             .h3-direccion {
-                text-shadow: 2px 1px 2px #000;
-                color: #fff;
+                text-shadow: 2px 1px 2px $primary-color-2;
+                color: $primary-color-1;
                 text-align: center;
                 font-weight: bold;
                 text-align: center;
@@ -46,7 +46,7 @@
 
 
         .mapa {
-            background-color: rgba(0, 0, 0, 0.442);
+            background-color: $primary-color-2;
 
             width: 50%;
             margin: auto;
@@ -63,7 +63,7 @@
     .contenedor-redes {
 
         .redes-sociales {
-            background-color: rgba(0, 0, 0, 0.75);
+            background-color: $primary-color-2;
             color: whitesmoke;
             text-align: center;
 
@@ -79,7 +79,7 @@
 
             .redes-sociales-enlaces {
                 width: 33.3%;
-                background-color: rgba(8, 7, 7, 0.774);
+                background-color: $primary-color-2;
                 margin: 1px;
                 text-align: center;
             }
@@ -103,7 +103,7 @@
         }
 
         form {
-            background-color: #020202;
+            background-color: $primary-color-2;
             margin-top: 50px;
             display: flex;
             justify-content: center;
@@ -111,7 +111,7 @@
             width: 30%;
             padding: 15px;
             border-radius: 10px;
-            color: #fff;
+            color: $primary-color-1;
 
             label {
                 margin: 10px;
@@ -135,21 +135,18 @@
             button {
                 width: 150px;
                 border-radius: 5px;
-                background-color: #2323ea;
-                color: #ffff;
+                background-color: $primary-color-4;
+                color: $primary-color-1;
                 margin: 20px auto;
                 cursor: pointer;
             }
 
             button:hover {
-                background-color: #4949ea;
+                background-color: $primary-color-4;
                 transition: all 0.5s ease-out;
             }
         }
 
     }
-
-
-
 
 }

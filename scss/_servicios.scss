@@ -15,7 +15,8 @@
         padding: 15px;
 
         h2 {
-            font-size: 30px;
+            font-size: $font-size-2;
+            text-decoration: underline;
         }
 
         .parrafo-titulo {
@@ -24,13 +25,13 @@
             flex-direction: column;
 
             p {
-                font-size: 15px;
+                font-size: $font-size-4;
                 font-family: sans-serif;
                 display: flex;
                 flex-direction: column;
 
                 span {
-                    font-size: 15px;
+                    font-size: $font-size-4;
                     font-family: sans-serif;
                 }
             }
@@ -38,8 +39,8 @@
     }
 
     .contenedor-servicios {
-        background-color: #000;
-        color: #fff;
+        background-color: $primary-color-2;
+        color: $primary-color-1;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -61,6 +62,7 @@
 
                 li {
                     list-style: none;
+                    color: $primary-color-4;
                 }
             }
 
@@ -87,8 +89,9 @@
 
                 li {
                     list-style: none;
-                    font-size: 20px;
+                    font-size: $font-size-3;
                     text-transform: uppercase;
+                    color: $primary-color-4;
                 }
             }
 
@@ -115,12 +118,12 @@
         .parrafo-trabaja{
             border-radius: 25px 5px 50px 5px;
             padding: 20px;
-            background: #000000;  /* fallback for old browsers */
+            background: $primary-color-2;  /* fallback for old browsers */
             background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             
             p{
-                color: #fff;
+                color: $primary-color-1;
 
             }
         }
