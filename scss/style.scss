@@ -8,15 +8,15 @@
 
 * {
     @include formatDocument
-
 }
 
-body{
+body {
     background-color: $primary-color-3;
 
 }
+
 .main-index {
-   @include main-all;
+    @include main-all;
 
     .titulos-index {
 
@@ -43,25 +43,32 @@ body{
     }
 
 
-    #frase-1 {
-        color: white;
-        text-shadow: 2px 1px 2px $primary-color-2;
-        font-size: 60px;
-        font-weight: bold;
-        text-align: center;
-        background-color: turquoise;
-        background-image: url(../imagenes/ruedas.jpg);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+    .h2-main {
+        width: 100%;
 
+        #frase-1 {
+            width: 100%;
+            color: white;
+            text-shadow: 2px 1px 2px $primary-color-2;
+            font-size: 60px;
+            font-weight: bold;
+            text-align: center;
+            background-color: turquoise;
+            background-image: url(../imagenes/ruedas.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
     }
+
 
     .contenedor-bienvenida {
         text-align: justify;
 
         .h2-bienvenida {
             text-align: center;
+
             h2 {
 
                 span {
@@ -108,7 +115,7 @@ body{
     }
 
 
-    .tipos-servicios {
+    .contenedor-servicios {
         color: $primary-color-2;
         background-color: $primary-color-3;
 
@@ -117,14 +124,17 @@ body{
         padding: 15px;
 
         .tipos-servicios {
-            
+
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            flex-wrap: wrap;
+            justify-content: center;
 
             span {
                 background-color: grey;
                 padding: 5px;
+                margin: 5px auto;
+
             }
         }
     }
@@ -146,13 +156,15 @@ body{
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
             .h3-direccion {
                 text-shadow: 2px 1px 2px $primary-color-2;
                 color: $primary-color-1;
                 text-align: center;
                 font-weight: bold;
                 text-align: center;
-                h3{
+
+                h3 {
                     font-size: $font-size-4;
 
                 }
@@ -161,15 +173,14 @@ body{
 
 
         .mapa {
-            background-color: rgba(0, 0, 0, 0.442);
-
+            background-color: $primary-color-2;
             width: 50%;
             margin: auto;
             display: flex;
             justify-content: center;
             padding: 20px;
 
-            iframe{
+            iframe {
                 width: 100%;
             }
         }
@@ -205,10 +216,72 @@ body{
 
 }
 
-/* @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .main-index {
+        .titulos-index {
+            h1 {
+                width: 100%;
+                font-size: 50px;
+            }
 
-        
+            #frase-2 {
+                width: 100%;
+                font-size: 25px;
+            }
+        }
+
+        .h2-main {
+            width: 100%;
+
+            #frase-1 {
+                width: 100%;
+                font-size: 35px;
+            }
+        }
+
+        .contenedor-bienvenida {
+            .contenedor-p-img {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .parrafo-bienvenida {
+                    width: 90%;
+                }
+
+                .img-bienvenida {
+                    width: 90%;
+                }
+            }
+
+        }
+
+        .contenedor-direccion {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            .direccion {
+                width: 90%;
+                padding: 5px;
+                h3{
+                    width: 100%;
+                    padding: 5px;
+                }
+            }
+
+            .mapa {
+                padding: 0px;
+                width: 90%;
+                iframe{
+                    width: 100%;
+                }
+            }
+        }
     }
 
-} */
+}

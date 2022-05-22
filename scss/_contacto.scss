@@ -2,11 +2,12 @@
 @import 'mixins';
 
 
-*{
+* {
     @include formatDocument
 }
+
 .main-contacto {
-   @include main-all;
+    @include main-all;
 
     h2 {
         margin-top: 20px;
@@ -108,7 +109,7 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-            width: 30%;
+            width: 50%;
             padding: 15px;
             border-radius: 10px;
             color: $primary-color-1;
@@ -147,6 +148,68 @@
             }
         }
 
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .main-contacto {
+
+        .contenedor-direccion {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            .direccion {
+                width: 90%;
+                padding: 5px;
+                h3{
+                    width: 100%;
+                    padding: 5px;
+                }
+            }
+
+            .mapa {
+                padding: 0px;
+                width: 90%;
+                iframe{
+                    width: 100%;
+                }
+            }
+        }
+
+        .formulario-contacto {
+            width: 90%;
+
+            form {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 70%;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .main-contacto {
+
+        .formulario-contacto {
+            width: 90%;
+
+            form {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+            }
+        }
     }
 
 }

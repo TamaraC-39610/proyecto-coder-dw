@@ -84,3 +84,106 @@
         }
     }
 }
+
+@media screen and (max-width:500px) {
+    .main-obras {
+        h2 {
+            width: 100%;
+            font-size: 30px;
+        }
+
+        .contenedor-nuestras-obras {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                width: 100%;
+                font-size: 25px;
+            }
+
+            p{
+                width: 100%;
+            }
+
+            img{
+                width: 90%;
+
+            }
+        }
+
+        .contenedor-obras-lista{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .obras-lista{
+                li{
+                    width: 100%;
+                }
+            }
+
+          .img-obras{
+            width: 100%;
+
+            img{
+            width: 100%;
+            }
+          }  
+        }
+    }
+}
+
+@media screen and (max-width:300px){
+    .main-obras {
+        h2 {
+            width: 100%;
+            font-size: 30px;
+        }
+
+        .contenedor-nuestras-obras {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                width: 100%;
+                font-size: 25px;
+            }
+
+            p{
+                width: 100%;
+            }
+
+            img{
+                width: 90%;
+
+            }
+        }
+
+        .contenedor-obras-lista{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .obras-lista{
+                li{
+                    width: 100%;
+                    flex-wrap: wrap;
+                }
+            }
+
+          .img-obras{
+            width: 100%;
+
+            img{
+            width: 100%;
+            }
+          }  
+        }
+    }
+}

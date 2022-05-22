@@ -51,6 +51,7 @@
 
                     list-style: none;
                     text-transform: uppercase;
+                    flex-wrap: wrap;
                 }
 
             }
@@ -124,4 +125,152 @@
         }
     }
 
+}
+
+
+@media screen and (max-width:500px) {
+    .main-quienessomos {
+        h2 {
+            width: 100%;
+            font-size: 30px;
+        }
+
+        .contenedor-nuestra-empresa {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                width: 100%;
+                font-size: 25px;
+            }
+
+            p {
+                width: 90%;
+            }
+        }
+
+        .contenedor-mantenimiento {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            ul {
+                width: 100%;
+            }
+        }
+
+        .imag-mantenimiento {
+            width: 100%;
+        }
+
+        .capitalhumano {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                width: 100%;
+            }
+
+            .contenedor-capitalhumano {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 15px;
+                padding-bottom: 15px;
+
+                .img-p-humano{
+                    width: 100%;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+
+                .capitalhumano-parrafo{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:300px) {
+    .main-quienessomos {
+        h2 {
+            width: 100%;
+            font-size: 30px;
+
+        }
+
+        .contenedor-nuestra-empresa {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                width: 100%;
+                font-size: 25px;
+            }
+
+            p {
+                width: 90%;
+            }
+        }
+
+        .contenedor-mantenimiento {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            ul {
+                width: 100%;
+            }
+        }
+
+        .imag-mantenimiento {
+            width: 100%;
+        }
+
+        .capitalhumano {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+                width: 100%;
+            }
+
+            .contenedor-capitalhumano {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 15px;
+                padding-bottom: 15px;
+
+                .img-p-humano{
+                    width: 100%;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+
+                .capitalhumano-parrafo{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
