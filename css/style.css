@@ -42,6 +42,9 @@
   flex-direction: column;
   padding: 15px;
 }
+.main-servicios .contenedor-servicios h2 {
+  font-size: 30px;
+}
 .main-servicios .contenedor-servicios .contenedor-servicios-li-1 {
   background-color: #b5b0b0;
   margin: 50px auto;
